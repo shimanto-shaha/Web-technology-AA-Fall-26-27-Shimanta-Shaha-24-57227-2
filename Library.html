@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Library Member Profile</title>
+
+</head>
+
+
+<body>
+
+
+    <h1>Library Member Profile</h1>
+
+    <h2>Welcome to Our Library</h2>
+
+    <p>
+        Welcome to our library membership webpage.
+        Here you can view member information and register
+        for library membership.
+    </p>
+
+    <p>
+        <b>Library Membership</b> is important for regular readers.
+        <i>Please fill up the registration form carefully.</i>
+    </p>
+
+
+    <hr>
+
+    <div>
+
+        <h2>About the Library</h2>
+
+        <p>
+            Our library provides books, study materials and
+            a comfortable environment for students.
+        </p>
+      
+            </div>
+
+    <p>
+        Our library is
+        <span>open for all students.</span>
+    </p>
+
+
+    <hr>
+
+    <h2>Useful Link</h2>
+
+    <p>
+        Visit our
+        <a href="https://www.google.com" target="_blank">
+            Library Search
+        </a>
+    </p>
+
+
+    <hr>
+
+    <h2>Library Member</h2>
+
+    <img src="https://via.placeholder.com/120"
+         alt="Member Image"
+         width="120"
+         height="120">
+
+
+    <hr>
+
+
+    <h2>Member Information</h2>
+
+    <table border="1" cellpadding="10">
+
+        <tr>
+
+            <th>Member ID</th>
+
+            <th>Name</th>
+
+            <th>Email</th>
+
+            <th>Image</th>
+
+        </tr>
+
+
+        <tr>
+
+            <td>LIB001</td>
+
+            <td>Shimanto</td>
+
+            <td>manto@gmail.com</td>
+
+            <td>
+                <img src="https://via.placeholder.com/80"
+                     alt="Shimanto"
+                     width="80">
+            </td>
+
+        </tr>
+
+
+        <tr>
+
+            <td>LIB002</td>
+
+            <td>Rahim</td>
+
+            <td>rahim@gmail.com</td>
+
+            <td>
+                <img src="https://via.placeholder.com/80"
+                     alt="Rahim"
+                     width="80">
+            </td>
+
+        </tr>
+
+    </table>
+
+
+    <hr>
+
+    <h2>Membership Registration</h2>
+
+
+    <form method="get">
+
+        <label>Name:</label>
+
+        <input type="text"
+               name="name"
+               required>
+
+        <br><br>
+
+        <label>Email:</label>
+
+        <input type="email"
+               name="email"
+               required>
+
+        <br><br>
+
+        <label>Password:</label>
+
+        <input type="password"
+               name="password"
+               required>
+
+        <br><br>
+
+        <label>Age:</label>
+
+        <input type="number"
+               name="age"
+               required>
+
+        <br><br>
+
+
+        <label>Date of Birth:</label>
+
+        <input type="date"
+               name="dob"
+               required>
+
+        <br><br>
+
+
+        <label>Gender:</label>
+
+        <input type="radio"
+               name="gender"
+               value="Male"
+               required>
+
+        Male
+
+
+        <input type="radio"
+               name="gender"
+               value="Female">
+
+        Female
+
+        <br><br>
+
+        <label>Membership Type:</label>
+
+        <select name="membership" required>
+
+            <option value="">
+                Select Membership
+            </option>
+
+            <option value="Student">
+                Student
+            </option>
+
+            <option value="Regular">
+                Regular
+            </option>
+
+            <option value="Premium">
+                Premium
+            </option>
+
+        </select>
+
+        <br><br>
+
+        <label>Upload Profile Picture:</label>
+
+        <input type="file"
+               name="profile_picture"
+               required>
+
+        <br><br>
+
+        <label>Address:</label>
+
+        <br>
+
+        <textarea name="address"
+                  rows="5"
+                  cols="40"
+                  required></textarea>
+
+        <br><br>
+
+        <input type="checkbox"
+               name="terms"
+               value="accepted"
+               required>
+
+        I agree to the library
+        <b>Terms and Conditions</b>
+
+        <br><br>
+
+        <input type="submit"
+               value="Register">
+
+
+        <input type="reset"
+               value="Clear">
+
+
+    </form>
+
+
+    <hr>
+
+
+</body>
+
+</html>
